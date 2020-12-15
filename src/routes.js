@@ -1,9 +1,11 @@
 import React from 'react'
 import {Switch, Route} from 'react-router-dom'
-import Auth from './components/Auth/Auth'
-import Dash from './components/Dash/Dash'
-import Form from './components/Form/Form'
-import Post from './components/Post/Post'
+import Auth from './Components/Auth/Auth'
+import Dash from './Components/Dash/Dash'
+import Form from './Components/Form/Form'
+import Post from './Components/Post/Post'
+
+// src\Components\Auth\Auth.js
 
 
 export default (
