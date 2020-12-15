@@ -30,6 +30,7 @@ class Auth extends Component {
         console.log(err)
         this.setState({errorMsg: 'Incorrect username or password!'})
       })
+      this.props.history.push('/Dash')
   }
 
   register() {
@@ -41,6 +42,7 @@ class Auth extends Component {
         console.log(err)
         this.setState({errorMsg: 'Username taken!'})
       })
+      this.props.history.push('/Dash')
   }
 
   closeErrorMessage = () => {
